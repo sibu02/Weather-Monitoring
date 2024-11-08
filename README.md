@@ -83,7 +83,11 @@ API_KEY: Your OpenWeatherMap API key.
 Refresh Interval: Set the interval (in minutes) for fetching new weather data.
 Alert Thresholds: Define thresholds for temperature and weather conditions to trigger alerts.
 # Screenshots
-Include screenshots of key features here, like real-time weather charts, daily summaries, and alert notifications.
+
+![](./src/assets/Projectdemo/1.png) <br/><br/><br/>
+
+![](./src/assets/Projectdemo/1.png)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

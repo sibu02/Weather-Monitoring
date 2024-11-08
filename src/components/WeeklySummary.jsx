@@ -26,7 +26,7 @@ function WeeklySummary({city}) {
 const responsive = {
     0: { items: 1.5 },
     560: { items: 3.5 },
-    800: { items: 4 },
+    800: { items: 3.5 },
     1024: { items: 5.5 },
   };
    const items = summaries.map((item)=>{
@@ -35,7 +35,7 @@ const responsive = {
 
   return (
     <Box className="relative w-full mx-auto p-4">
-      <Typography variant="h5" className="text-center text-blue-800 font-semibold mb-4">
+      <Typography variant="h1" className="text-center text-xl text-blue-800 font-semibold mb-4">
         Past 7 Days Weather Summary
       </Typography>
       {loading ? (

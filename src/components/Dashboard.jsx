@@ -40,7 +40,7 @@ function Dashboard() {
 
   return (
     <div 
-      className="relative flex flex-col items-center min-w-screen bg-cover bg-center p-1 w-full" 
+      className="relative flex flex-col items-center min-w-screen bg-cover bg-center p-1 h-full" 
       style={{ backgroundImage: 'url("https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg?semt=ais_hybrid")' }}
     >
       <Typography 
@@ -51,7 +51,7 @@ function Dashboard() {
       </Typography>
 
       {/* City Selection Dropdown */}
-      <Box className="mb-8 w-full max-w-lg">
+      <Box className="mb-8 w-full max-w-lg mt-8">
         <Typography variant="body1" className="mb-2 text-gray-700 text-center font-medium">
           Select City
         </Typography>
@@ -91,7 +91,7 @@ function Dashboard() {
           </Typography>
         )}
       </div>
-      <div className='w-full'>
+      <div className='w-full mt-[7rem]'>
         <WeeklySummary city={selectedCity}/>
       </div>
     </div>

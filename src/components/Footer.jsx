@@ -2,7 +2,7 @@ import React from 'react';
 import { Typography } from '@mui/material';
 function Footer() {
   return (
-    <footer className="bg-blue-800 text-gray-200">
+    <footer className="bg-blue-800 text-gray-200 h-[7rem] flex flex-col">
       <div className="container mx-auto px-4 flex flex-col items-center space-y-4">
         {/* Links Section */}
         <div className="flex space-x-4">
