@@ -86,7 +86,7 @@ Alert Thresholds: Define thresholds for temperature and weather conditions to tr
 
 ![](./src/assets/Projectdemo/1.png) <br/><br/><br/>
 
-![](./src/assets/Projectdemo/1.png)
+![](./src/assets/Projectdemo/2.png)
 
 # React + Vite
 
